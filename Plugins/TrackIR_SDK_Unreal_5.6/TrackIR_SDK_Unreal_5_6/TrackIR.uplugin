@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.2",
+	"FriendlyName": " TrackIR Plugin",
+	"Description": "Control camera position and orientation based on head movements while using a TrackIR.",
+	"Category": "TrackIR",
+	"CreatedBy": "TrackIR",
+	"CreatedByURL": "https://www.trackir.com",
+	"DocsURL": "https://docs.trackir.com/",
+	"MarketplaceURL": "",
+	"SupportURL": "https://www.trackir.com/help/",
+	"EngineVersion": "5.6.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "TrackIR",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
